@@ -114,4 +114,5 @@ DB[:conn].execute(sql).map {|s| Student.new_from_db(s)}
     DB[:conn].execute(sql, x).map {|s| Student.new_from_db(s)}
 
   end
+  
 end
